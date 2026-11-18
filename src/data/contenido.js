@@ -7,25 +7,25 @@ export const hero = {
 export const proposito = {
   titulo: "Diseñar el sistema detrás de la experiencia",
   intro:
-    "Este sitio reúne la documentación, los diagramas y el prototipo de Mundo a la Carta. Su propósito es mostrar cómo se modeló, paso a paso, un restaurante que convierte la cena en un viaje: del modelado de negocio al modelado del sistema que lo hace posible.",
+    "El presente sitio reúne la documentación, los diagramas y el prototipo de Mundo a la Carta. Su propósito es mostrar cómo se modeló, paso a paso, un restaurante que convierte la cena en un viaje del modelado de negocio al modelado del sistema que lo hace posible.",
   puntos: [
     { titulo: "Qué buscamos", texto: "Diseñar el sistema que sostiene la experiencia: reservación, recepción e inmersión del cliente, además de la gestión de clientes, platillos, empleados y souvenirs." },
-    { titulo: "Cómo lo hicimos", texto: "Con UML y Design Thinking: un modelado de negocio de seis casos de uso que maduró en un modelado de sistema de 16." },
-    { titulo: "Qué mostramos", texto: "Los dos documentos de modelado y tres videos: el funcionamiento del programa, los diagramas y el prototipo." },
+    { titulo: "Cómo lo hicimos", texto: "Con UML, Design Thinking, Visual Studio Code, GitHub, React + Vite, JavaScript: un modelado de negocio de seis casos de uso que maduró en un modelado de sistema de 16 Casos de Uso." },
+    { titulo: "Qué mostramos", texto: "Los documentos de Modelado de Negocio, Modelado de Sistema y tres videos muestran el funcionamiento del programa, los diagramas de actividades y el prototipo, culminando con el software programado y funcional al 100%" },
   ],
 };
+
+// youtubeId: lo que va después de v= en el link  |  archivo: video en public/videos  |  miniatura: imagen opcional 
+export const videos = [
+  { titulo: "Funcionamiento del Programa", descripcion: "Recorrido por el programa en uso.", youtubeId: "", driveId: "1QjV5e-rDEuK0vueTOifdTQYXl3dVe2bu", archivo: "", miniatura: "" },
+  { titulo: "Prototipo", descripcion: "Demostración del prototipo.", youtubeId: "", driveId: "1ogsH3H3YB7F78OXlEcTYVC9URMkbjEIE", archivo: "", miniatura: "" },
+  { titulo: "Diagramas", descripcion: "Explicación de los diagramas del sistema.", youtubeId: "", driveId: "", archivo: "", miniatura: "" }
+];
 
 // archivo: PDF dentro de public/docs  |  vista: imagen opcional dentro de public/docs
 export const documentos = [
   { titulo: "Modelado de negocio", descripcion: "Documento Realizado en Segundo Semestre.", archivo: "/docs/ModeladoNegocio.pdf", vista: "/docs/ModeladoNegocio.pdf" },
   { titulo: "Modelado de sistema", descripcion: "Requerimientos, casos de uso y arquitectura del programa.", archivo: "/docs/ModeladoSistema.pdf", vista: "/docs/ModeladoSistema.pdf " },
-];
- 
-// youtubeId: lo que va después de v= en el link  |  archivo: video en public/videos  |  miniatura: imagen opcional 
-export const videos = [
-  { titulo: "Funcionamiento del Programa", descripcion: "Recorrido por el programa en uso.", youtubeId: "", driveId: "1ogsH3H3YB7F78OXlEcTYVC9URMkbjEIE", archivo: "", miniatura: "" },
-  { titulo: "Diagramas", descripcion: "Explicación de los diagramas del sistema.", youtubeId: "", driveId: "", archivo: "", miniatura: "" },
-  { titulo: "Prototipo", descripcion: "Demostración del prototipo.", youtubeId: "", driveId: "", archivo: "", miniatura: "" },
 ];
 
 // foto: ruta dentro de public (ej. "/equipo/ana.jpg")

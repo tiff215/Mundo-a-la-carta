@@ -32,6 +32,19 @@ function Inicio() {
           </div>
         </section>
 
+        {/* VIDEOS */}
+        <section className="seccion" id="videos">
+  <SectionTitle title="Videos" subtitle="Apoyo visual" />
+
+  <div className="videos-principal">
+    <VideoCard {...videos[0]} />
+  </div>
+
+  <div className="grid grid--2 videos-secundarios">
+    {videos.slice(1).map((v) => <VideoCard key={v.titulo} {...v} />)}
+  </div>
+</section>
+
         {/* DOCUMENTOS */}
         <section className="seccion" id="documentos">
           <SectionTitle title="Documentos" subtitle="La base del proyecto, lista para leer o descargar" />
@@ -40,13 +53,6 @@ function Inicio() {
           </div>
         </section>
 
-        {/* VIDEOS */}
-        <section className="seccion" id="videos">
-          <SectionTitle title="Videos" subtitle="Apoyo Visual" />
-          <div className="grid grid--3">
-            {videos.map((v) => <VideoCard key={v.titulo} {...v} />)}
-          </div>
-        </section>
 
         {/* EQUIPO */}
 <section className="seccion" id="equipo">
