@@ -1,0 +1,22 @@
+.hero {
+  background-color: #CBAF8D;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero h2 {
+  font-size: 42px;
+  color: #4F362C;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #2B2B2B;
+}
+/* --- Hero con imagen --- */
+.hero { padding: 50px 20px 60px; }
+.hero__actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 36px; }
+.hero__img { width: 100%; max-width: 960px; margin: 0 auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(79, 54, 44, 0.25); }
+.hero p { margin: 16px auto 24px; max-width: 560px; }
+@media (max-width: 768px) { .hero h2 { font-size: 32px; } }

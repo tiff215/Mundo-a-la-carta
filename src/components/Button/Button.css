@@ -1,0 +1,18 @@
+.custom-button {
+  background-color: #8B5A2B;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.custom-button:hover {
+  background-color: #4F362C;
+}
+/* --- Para usar el mismo botón como enlace <a> --- */
+a.custom-button { display: inline-block; text-decoration: none; font-size: 16px; }
+.custom-button--claro { background-color: white; color: #4F362C; }
+.custom-button--claro:hover { background-color: #F8F5F2; }
