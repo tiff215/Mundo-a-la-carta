@@ -19,7 +19,7 @@ export const proposito = {
 export const videos = [
   { titulo: "Funcionamiento del Programa", descripcion: "Recorrido por el programa en uso.", youtubeId: "", driveId: "1QjV5e-rDEuK0vueTOifdTQYXl3dVe2bu", archivo: "", miniatura: "" },
   { titulo: "Prototipo", descripcion: "Demostración del prototipo.", youtubeId: "", driveId: "1ogsH3H3YB7F78OXlEcTYVC9URMkbjEIE", archivo: "", miniatura: "" },
-  { titulo: "Diagramas", descripcion: "Explicación de los diagramas del sistema.", youtubeId: "", driveId: "", archivo: "", miniatura: "" }
+  { titulo: "Diagramas", descripcion: "Explicación de los diagramas del sistema.", youtubeId: "", driveId: "1PcS7BUnzS9rlsi0FJX64xcvLj7-L8eCG", archivo: "", miniatura: "" }
 ];
 
 // archivo: PDF dentro de public/docs  |  vista: imagen opcional dentro de public/docs
