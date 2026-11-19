@@ -10,7 +10,7 @@ export const proposito = {
     "El presente sitio reúne la documentación, los diagramas y el prototipo de Mundo a la Carta. Su propósito es mostrar cómo se modeló, paso a paso, un restaurante que convierte la cena en un viaje del modelado de negocio al modelado del sistema que lo hace posible.",
   puntos: [
     { titulo: "Qué buscamos", texto: "Diseñar el sistema que sostiene la experiencia: reservación, recepción e inmersión del cliente, además de la gestión de clientes, platillos, empleados y souvenirs." },
-    { titulo: "Cómo lo hicimos", texto: "Con UML, Design Thinking, Visual Studio Code, GitHub, React + Vite, JavaScript: un modelado de negocio de seis casos de uso que maduró en un modelado de sistema de 16 Casos de Uso." },
+    { titulo: "Cómo lo hicimos", texto: "Con UML, Design Thinking, Visual Studio Code, GitHub, React + Vite, JavaScript: un modelado de negocio de seis casos de uso que maduró en un modelado de sistema de 16 Casos de Uso. \n\n Lineas de codigo finales: \n\n Front-End: 7,100 \n\n Back-End: 2,477 \n\n Base de datos: 864 \n\n Semillas y Datos Mock del Front-End: 576 \n\n Lineas Totales: 11,017" },
     { titulo: "Qué mostramos", texto: "Los documentos de Modelado de Negocio, Modelado de Sistema y tres videos muestran el funcionamiento del programa, los diagramas de actividades y el prototipo, culminando con el software programado y funcional al 100%" },
   ],
 };
